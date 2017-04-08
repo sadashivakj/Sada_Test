@@ -1,68 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 <head>
 	<meta charset="UTF-8">
 	<title>CSS Stylesheets with Relative Paths</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-<header>
-	<h1>Student Bio</h1>
-</header>
-<div>
-	<section>
-		<h2>Sadashiva Kallur</h2>
-		<img width="200" height="200" src="http://i.imgur.com/4PYS1Ck.png" alt="Just an image" />
+<body> 
+	<header>
+		<h1>Student Bio</h1> 
+	</header>
+	<div class="container"> 
+		<section id="main-bio">
+			<h2>Sadashiva Kallur</h2>
+			<img id="bio-image" width="200" height="200" src="http://i.imgur.com/4PYS1Ck.png" alt="Just an image" />
 
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-		</p>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			</p>  
 
-	</section>
-	<section>
-		<h2>Contact Info</h2>
-
-		<ul>
-			<li><strong>Email:</strong> <a href="sadashivakj@gmail.com" target="_blank">sadashivakj@gmail.com</a></li>
-			<li><strong>Github:</strong> <a href="https://github.com/sadashivakj" target="_blank">myGithub</a></li>
-			<li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-		</ul>
-	</section>
-</div>
-	<style type="text/css">
-		.container{
-			width: 1024px;
-			margin: 0 auto;
-		}
-		#main_bio{
-			float: left;
-			width: 70%;
-			margin: 10;
-		}
-		#contact-info{
-			float: left;
-			width: 30%;
-		}
-		#bio-image{
-			float: left;
-			width: 200px;
-		}
-		body{
-			background-color: #efeee7;
-			font-style: "Georgia",Times New Roman,Times,serif;
-			color: #333333;
-			margin: 0;
-  			padding: 0;
-		}
-		header{
-			background-color: #333333;
-		}
-
-		h1{
-			color: #eee;
-			font-size: 28px;
-		}
-		h2{
-		font-size: 24px;	
-		}
-	</style>
+		</section>
+		<section id="contact-info">
+			<h2>Contact Info</h2>
+			<ul>
+				<li><strong>Email:</strong> <a href="sadashivakj@gmail.com" target="_blank">sadashivakj@gmail.com</a></li>
+				<li><strong>Github:</strong> <a href="https://github.com/sadashivakj" target="_blank">myGithub</a></li>
+				<li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+			</ul>
+		</section>
+	</div>
 </body>
 </html/>
